@@ -34,4 +34,4 @@ jobs:
    
    steps:  
      - name: test with pylint
-       run: ls
+       run: python --version
