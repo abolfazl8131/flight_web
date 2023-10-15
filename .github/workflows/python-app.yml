@@ -34,4 +34,4 @@ jobs:
    
    steps:  
      - name: test with pylint
-       run: sh test.sh
+       run: pylint
