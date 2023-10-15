@@ -34,6 +34,9 @@ jobs:
    
    steps:
     - uses: actions/checkout@v2
+    - name: test installed pytest
+      run: pip show pytest
+      
     - name: test with pytest
       run: |
         sh test.sh
