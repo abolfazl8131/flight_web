@@ -32,7 +32,8 @@ jobs:
    needs: build
    runs-on: ubuntu-latest
    
-   steps:  
+   steps:
+    - uses: actions/checkout@v2
     - name: test with pytest
       run: |
         sh test.sh
