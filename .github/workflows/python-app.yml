@@ -34,4 +34,4 @@ jobs:
    
    steps:  
      - name: test with pylint
-       run: python --version
+       run: pwd
