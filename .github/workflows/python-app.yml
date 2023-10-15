@@ -33,5 +33,5 @@ jobs:
    runs-on: ubuntu-latest
    
    steps:  
-     - name: test with pylint
-       run: pytest
+    - name: test with pytest
+      run: sh test.sh
